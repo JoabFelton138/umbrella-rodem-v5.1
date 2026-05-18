@@ -20,7 +20,7 @@ export const BioweaponsCard = ({ name, status, classification, price, avatar, de
                     <h3>{name.toUpperCase()}</h3>
                 </div>
                 <div className={styles.cardChipContainer}>
-                    <p>STATUS: {status}</p>
+                    <p>STATUS: <Pill type="status" value={status} /></p>
                     <p>PRICE: ${price}</p>
                 </div>
                 <div className={styles.cardBody}>

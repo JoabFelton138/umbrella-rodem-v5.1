@@ -9,19 +9,24 @@
     line-height: 1.4;
 }
 
-.pill[data-type="status"][data-value="alive"] {
+.pill[data-type="status"][data-value~="alive"],
+.pill[data-type="status"][data-value~="available"] {
     background: #1F3A1F;
     border-color: #2F4F2F;
     color: #A8E6A1;
 }
 
-.pill[data-type="status"][data-value="deceased"] {
+.pill[data-type="status"][data-value~="deceased"],
+.pill[data-type="status"][data-value~="destroyed"],
+.pill[data-type="status"][data-value~="unstable"] {
     background: #2A1A1A;
     border-color: #3A1A1A;
     color: #D96A6A;
 }
 
-.pill[data-type="status"][data-value="unknown"] {
+.pill[data-type="status"][data-value~="unknown"],
+.pill[data-type="status"][data-value~="contained"],
+.pill[data-type="status"][data-value~="out_of_stock"] {
     background: #1E1E1E;
     border-color: #2A2A2A;
     color: #9A9A9A;

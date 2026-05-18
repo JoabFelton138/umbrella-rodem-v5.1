@@ -1,10 +1,4 @@
-export type StatusValue = "alive" | "deceased" | "unknown";
-export type ThreatValue = "low" | "moderate" | "high" | "critical";
-
-export type PillProps =
-  | { type: "status"; value: StatusValue }
-  | { type: "threat"; value: ThreatValue };
-
+import { StatusValue, ThreatValue } from "./pills";
 
 export interface PriorityThreat {
     id: number;
