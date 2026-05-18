@@ -1,0 +1,13 @@
+.sidebarTrigger {
+    position: absolute;
+    top: 25px;
+    right: -45px;
+    z-index: 1;
+    background-color: var(--color-sidebar-bg);
+    border: var(--color-sidebar-border);
+    color: var(--color-text);
+}
+
+.sidebarTrigger:hover {
+    background-color: var(--color-primary-hover);
+}

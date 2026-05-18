@@ -1,0 +1,28 @@
+.sidebarHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebarHeaderContent {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sidebarHeaderContent p {
+    margin: 0;
+}
+
+.sidebarHeaderContent p:first-child {
+    font-weight: bold;
+}
+
+.sidebarHeaderContent p:last-child {
+    font-weight: lighter;
+}
+
+.sidebarHeader > :only-child {
+    margin-inline: auto;
+}

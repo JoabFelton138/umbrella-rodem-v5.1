@@ -1,0 +1,194 @@
+{
+  "priorityThreats": [
+    {
+      "id": 1,
+      "name": "Chris Redfield",
+      "status": "alive",
+      "affiliation": "S.T.A.R.S. / BSAA",
+      "threatLevel": "critical",
+      "lastKnownLocation": "BSAA Command",
+      "summary": "Highly trained combatant responsible for repeated interference in Umbrella operations. Exhibits extreme physical resilience.",
+      "avatar": "/threat-avatars/chris.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Jill Valentine",
+      "status": "alive",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "critical",
+      "lastKnownLocation": "Unknown",
+      "summary": "Elite operative with advanced infiltration and survival capabilities. Directly responsible for multiple operational failures.",
+      "avatar": "/threat-avatars/jill.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Leon S. Kennedy",
+      "status": "alive",
+      "affiliation": "RPD / DSO",
+      "threatLevel": "high",
+      "lastKnownLocation": "US Government Jurisdiction",
+      "summary": "Operative with repeated interference in Umbrella-related incidents. Displays high adaptability under extreme conditions.",
+      "avatar": "/threat-avatars/leon.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ada Wong",
+      "status": "unknown",
+      "affiliation": "Independent",
+      "threatLevel": "high",
+      "lastKnownLocation": "Unverified Global Sightings",
+      "summary": "Unpredictable infiltrator with advanced espionage capabilities. Motivations remain unclear.",
+      "avatar": "/threat-avatars/ada.png"
+    },
+    {
+      "id": 5,
+      "name": "Claire Redfield",
+      "status": "alive",
+      "affiliation": "TerraSave",
+      "threatLevel": "moderate",
+      "lastKnownLocation": "TerraSave HQ",
+      "summary": "Civilian activist with persistent involvement in anti-Umbrella events.",
+      "avatar": "/threat-avatars/claire.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Barry Burton",
+      "status": "alive",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "moderate",
+      "lastKnownLocation": "Unknown",
+      "summary": "Weapons specialist with strong ties to other high-value threats. Demonstrates high loyalty to S.T.A.R.S. personnel.",
+      "avatar": "/threat-avatars/barry.png"
+    },
+    {
+      "id": 7,
+      "name": "Rebecca Chambers",
+      "status": "alive",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "moderate",
+      "lastKnownLocation": "Medical Research Facilities",
+      "summary": "Biochemist with firsthand knowledge of Umbrella assets. Survived multiple high-fatality incidents.",
+      "avatar": "/threat-avatars/rebecca.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "Sherry Birkin",
+      "status": "alive",
+      "affiliation": "US Government",
+      "threatLevel": "high",
+      "lastKnownLocation": "DSO Protection",
+      "summary": "Subject exhibits unique regenerative properties. Considered a high-value biological anomaly.",
+      "avatar": "/threat-avatars/sherry.webp"
+    },
+    {
+      "id": 9,
+      "name": "Carlos Oliveira",
+      "status": "alive",
+      "affiliation": "U.B.C.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Unknown",
+      "summary": "Former Umbrella mercenary who defected during Raccoon City incident.",
+      "avatar": "/threat-avatars/carlos.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "Brad Vickers",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Raccoon City",
+      "summary": "Pilot with limited combat capability. Terminated during Raccoon City incident.",
+      "avatar": "/threat-avatars/brad.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Joseph Frost",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Arklay Mountains",
+      "summary": "Alpha Team scout. Eliminated early during mansion incident.",
+      "avatar": "/threat-avatars/joseph.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Richard Aiken",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Spencer Estate",
+      "summary": "Communications specialist. Neutralized during initial outbreak.",
+      "avatar": "/threat-avatars/richard.webp"
+    },
+    {
+      "id": 14,
+      "name": "Enrico Marini",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "moderate",
+      "lastKnownLocation": "Spencer Estate",
+      "summary": "Bravo Team leader. Demonstrated high suspicion of Umbrella activities. Terminated.",
+      "avatar": "/threat-avatars/enrico.webp"
+    },
+    {
+      "id": 15,
+      "name": "Forest Speyer",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Spencer Estate",
+      "summary": "Sniper specialist. Deceased following B.O.W. encounter.",
+      "avatar": "/threat-avatars/forest.webp"
+    },
+    {
+      "id": 16,
+      "name": "Kenneth J. Sullivan",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Spencer Estate",
+      "summary": "Recon specialist. First confirmed casualty of mansion incident.",
+      "avatar": "/threat-avatars/kenneth.webp"
+    },
+    {
+      "id": 17,
+      "name": "Edward Dewey",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Arklay Forest",
+      "summary": "Bravo Team officer. Terminated during initial outbreak.",
+      "avatar": "/threat-avatars/edward.webp"
+    },
+    {
+      "id": 18,
+      "name": "Kevin Dooley",
+      "status": "deceased",
+      "affiliation": "S.T.A.R.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Raccoon City",
+      "summary": "Bravo Team pilot. Deceased prior to major incidents.",
+      "avatar": "/threat-avatars/kevin.webp"
+    },
+    {
+      "id": 19,
+      "name": "Steve Burnside",
+      "status": "deceased",
+      "affiliation": "Rockfort Prison",
+      "threatLevel": "low",
+      "lastKnownLocation": "Rockfort Island",
+      "summary": "Deceased following T-Veronica exposure. Remains of interest for research replication.",
+      "avatar": "/threat-avatars/steve.png"
+    },
+    {
+      "id": 20,
+      "name": "Mikhail Victor",
+      "status": "deceased",
+      "affiliation": "U.B.C.S.",
+      "threatLevel": "low",
+      "lastKnownLocation": "Raccoon City",
+      "summary": "U.B.C.S. platoon leader. Deceased following self-sacrifice during outbreak.",
+      "avatar": "/threat-avatars/mikhail.png"
+    }
+  ]
+}

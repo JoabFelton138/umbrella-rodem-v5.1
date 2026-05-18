@@ -1,0 +1,29 @@
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--bevel-dark);
+}
+
+.cardChipContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.summary h4 {
+  margin: 0 0 2px;
+  letter-spacing: 0.1em;
+}
+
+.summary p {
+  line-height: 1.5;
+}

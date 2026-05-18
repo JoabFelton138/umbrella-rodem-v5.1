@@ -1,0 +1,23 @@
+.chiseled {
+    background: var(--bevel-face);
+    border: 2px solid;
+    border-top-color: var(--bevel-light);
+    border-left-color: var(--bevel-light);
+    border-right-color: var(--bevel-darker);
+    border-bottom-color: var(--bevel-darker);
+    border-radius: 0;
+    box-shadow:
+    inset 1px 1px 0 var(--bevel-lighter),
+    inset -1px -1px 0 var(--bevel-dark);
+}
+
+.sunken {
+    background: var(--color-surface);
+    color: var(--color-surface-text);
+    border: 2px solid;
+    border-top-color: var(--bevel-darker);
+    border-left-color: var(--bevel-darker);
+    border-right-color: var(--bevel-light);
+    border-bottom-color: var(--bevel-light);
+    border-radius: 0;
+}

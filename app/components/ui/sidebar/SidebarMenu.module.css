@@ -1,0 +1,30 @@
+
+.sidebarMenu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 15px;
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+}
+
+.sidebarMenuItem {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text);
+}
+
+.sidebarMenuItemIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.sidebarMenuItem > :only-child {
+    margin-inline: auto;
+}

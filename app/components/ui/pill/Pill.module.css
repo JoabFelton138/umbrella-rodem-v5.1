@@ -1,0 +1,52 @@
+.pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 999px;
+    border: 1px solid;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    line-height: 1.4;
+}
+
+.pill[data-type="status"][data-value="alive"] {
+    background: #1F3A1F;
+    border-color: #2F4F2F;
+    color: #A8E6A1;
+}
+
+.pill[data-type="status"][data-value="deceased"] {
+    background: #2A1A1A;
+    border-color: #3A1A1A;
+    color: #D96A6A;
+}
+
+.pill[data-type="status"][data-value="unknown"] {
+    background: #1E1E1E;
+    border-color: #2A2A2A;
+    color: #9A9A9A;
+}
+
+.pill[data-type="threat"][data-value="critical"] {
+    background: #3A0000;
+    border-color: #4A0000;
+    color: #FF6B6B;
+}
+
+.pill[data-type="threat"][data-value="high"] {
+    background: #2A0000;
+    border-color: #3A0000;
+    color: #E04E4E;
+}
+
+.pill[data-type="threat"][data-value="moderate"] {
+    background: #2A2200;
+    border-color: #3A3200;
+    color: #E0C060;
+}
+
+.pill[data-type="threat"][data-value="low"] {
+    background: #1E1E1E;
+    border-color: #2A2A2A;
+    color: #8A8A8A;
+}
