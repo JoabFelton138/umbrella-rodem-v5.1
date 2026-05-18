@@ -1,125 +1,164 @@
 {
-    "bioweapons": [
-      {
-        "id": "RE1-001",
-        "name": "Tyrant T-002",
-        "classification": "T-Series",
-        "status": "Destroyed",
-        "price": 75000000,
-        "avatar": "/bioweapon-avatars/tyrant-t002.webp",
-        "description": "Prototype Tyrant with exceptional strength and regenerative capability.",
-        "abilities": ["Superhuman Strength", "Claw Attacks", "Regeneration"]
-      },
-      {
-        "id": "RE1-002",
-        "name": "Yawn",
-        "classification": "B.O.W. Serpent",
-        "status": "Contained",
-        "price": 12000000,
-        "avatar": "/bioweapon-avatars/yawn.webp",
-        "description": "Gigantic snake mutated by prolonged viral exposure.",
-        "abilities": ["Venom Bite", "Constriction"]
-      },
-      {
-        "id": "RE1-003",
-        "name": "Plant 42",
-        "classification": "Bio-Organic Plant",
-        "status": "Destroyed",
-        "price": 9000000,
-        "avatar": "/bioweapon-avatars/plant42.webp",
-        "description": "Plant-based organism with rapid growth and tentacle-like appendages.",
-        "abilities": ["Acid Secretion", "Tentacle Restraint"]
-      },
-      {
-        "id": "RE1-004",
-        "name": "Cerberus",
-        "classification": "T-Virus Canine Unit",
-        "status": "Available",
-        "price": 5000000,
-        "avatar": "/bioweapon-avatars/cerberus.webp",
-        "description": "Doberman-based B.O.W. engineered for high-speed pursuit and coordinated pack attacks.",
-        "abilities": ["Enhanced Speed", "Pack Coordination", "Increased Aggression"]
-      },
-      {
-        "id": "RE1-005",
-        "name": "Giant Spider",
-        "classification": "T-Virus Arthropod Mutation",
-        "status": "Contained",
-        "price": 7000000,
-        "avatar": "/bioweapon-avatars/giant-spider.webp",
-        "description": "Oversized arachnid mutated through prolonged viral exposure, capable of venomous attacks and egg spawning.",
-        "abilities": ["Venom Spray", "Wall Crawling", "Egg Laying"]
-      },
-      {
-        "id": "RE2-001",
-        "name": "G (Stage 1–5)",
-        "classification": "G-Virus Mutant",
-        "status": "Unstable",
-        "price": 150000000,
-        "avatar": "/bioweapon-avatars/g-mutant.webp",
-        "description": "Rapidly mutating organism driven by reproductive instinct.",
-        "abilities": ["Mutation", "Enhanced Strength", "Regeneration"]
-      },
-      {
-        "id": "RE2-002",
-        "name": "Mr. X (T-103)",
-        "classification": "T-Series",
-        "status": "Destroyed",
-        "price": 65000000,
-        "avatar": "/bioweapon-avatars/mr-x.webp",
-        "description": "Mass-produced Tyrant deployed for target elimination.",
-        "abilities": ["Superhuman Strength", "Durability"]
-      },
-      {
-        "id": "RE2-003",
-        "name": "Licker",
-        "classification": "T-Virus Mutation",
-        "status": "Available",
-        "price": 8000000,
-        "avatar": "/bioweapon-avatars/licker.webp",
-        "description": "Skinless quadruped with heightened senses and lethal claws.",
-        "abilities": ["Wall Crawling", "Long-Range Tongue Attack", "Enhanced Hearing"]
-      },
-      {
-        "id": "RE3-001",
-        "name": "Nemesis-T Type",
-        "classification": "Pursuer-Type Tyrant",
-        "status": "Out_of_Stock",
-        "price": 200000000,
-        "avatar": "/bioweapon-avatars/nemesis.webp",
-        "description": "Advanced Tyrant capable of independent thought and weapon use.",
-        "abilities": ["Weapon Handling", "Regeneration", "Tentacle Mutation"]
-      },
-      {
-        "id": "RE3-002",
-        "name": "Grave Digger",
-        "classification": "Mutated Arthropod",
-        "status": "Destroyed",
-        "price": 30000000,
-        "avatar": "/bioweapon-avatars/grave-digger.webp",
-        "description": "Massive subterranean creature mutated by viral contamination.",
-        "abilities": ["Burrowing", "Ambush Attacks"]
-      },
-      {
-        "id": "CV-001",
-        "name": "Nosferatu",
-        "classification": "T-Veronica Mutant",
-        "status": "Destroyed",
-        "price": 45000000,
-        "avatar": "/bioweapon-avatars/nosferatu.webp",
-        "description": "Heavily mutated human with elongated limbs and toxic breath.",
-        "abilities": ["Poison Mist", "Enhanced Strength"]
-      },
-      {
-        "id": "CV-003",
-        "name": "Bandersnatch",
-        "classification": "T-Veronica B.O.W.",
-        "status": "Available",
-        "price": 15000000,
-        "avatar": "/bioweapon-avatars/bandersnatch.webp",
-        "description": "Mass-produced B.O.W. with elastic limbs and unstable physiology.",
-        "abilities": ["Elastic Arm Strike", "High Mobility"]
-      }
-    ]
-  }
-  
+  "bioweapons": [
+    {
+      "id": "RE3-001",
+      "name": "Nemesis-T Type",
+      "classification": "Pursuer-Type Tyrant",
+      "status": "Out of Stock",
+      "price": 500000000,
+      "avatar": "/bioweapon-avatars/nemesis.png",
+      "description": "Advanced Tyrant capable of independent thought and weapon use.",
+      "abilities": ["Weapon Handling", "Regeneration", "Tentacle Mutation"]
+    },
+    {
+      "id": "RE2-001",
+      "name": "G Mutant",
+      "classification": "G-Virus Mutant",
+      "status": "Unstable",
+      "price": 350000000,
+      "avatar": "/bioweapon-avatars/g-adult.png",
+      "description": "Rapidly mutating organism driven by reproductive instinct.",
+      "abilities": ["Mutation", "Enhanced Strength", "Regeneration"]
+    },
+    {
+      "id": "RE1-001",
+      "name": "Tyrant T-002",
+      "classification": "T-Series",
+      "status": "Destroyed",
+      "price": 150000000,
+      "avatar": "/bioweapon-avatars/tyrant-t002.jpeg",
+      "description": "Prototype Tyrant with exceptional strength and regenerative capability.",
+      "abilities": ["Superhuman Strength", "Claw Attacks", "Regeneration"]
+    },
+    {
+      "id": "RE2-002",
+      "name": "Mr. X (T-103)",
+      "classification": "T-Series",
+      "status": "Available",
+      "price": 90000000,
+      "avatar": "/bioweapon-avatars/mr-x.png",
+      "description": "Mass-produced Tyrant deployed for target elimination.",
+      "abilities": ["Superhuman Strength", "Durability"]
+    },
+    {
+      "id": "RE3-004",
+      "name": "Hunter Gamma",
+      "classification": "Hunter-Class B.O.W.",
+      "status": "Contained",
+      "price": 60000000,
+      "avatar": "/bioweapon-avatars/hunter-gamma.png",
+      "description": "Amphibious Hunter variant with powerful jaws and high aquatic mobility.",
+      "abilities": ["Devour Attack", "Amphibious Movement", "High Mobility"]
+    },
+    {
+      "id": "RE1-008",
+      "name": "Hunter Beta",
+      "classification": "Hunter-Class B.O.W.",
+      "status": "Available",
+      "price": 50000000,
+      "avatar": "/bioweapon-avatars/hunter-beta.jpeg",
+      "description": "Improved Hunter variant with enhanced durability and refined sensory tracking.",
+      "abilities": ["Enhanced Durability", "Tracking", "Claw Strikes"]
+    },
+    {
+      "id": "RE1-007",
+      "name": "Hunter Alpha",
+      "classification": "Hunter-Class B.O.W.",
+      "status": "Available",
+      "price": 40000000,
+      "avatar": "/bioweapon-avatars/hunter.webp",
+      "description": "First-generation Hunter model engineered for high agility and lethal close-quarters combat.",
+      "abilities": ["High Jump Attacks", "Claw Strikes", "Enhanced Reflexes"]
+    },
+    {
+      "id": "RE3-002",
+      "name": "Grave Digger",
+      "classification": "Mutated Arthropod",
+      "status": "Destroyed",
+      "price": 30000000,
+      "avatar": "/bioweapon-avatars/gd.webp",
+      "description": "Massive subterranean creature mutated by viral contamination.",
+      "abilities": ["Burrowing", "Ambush Attacks"]
+    },
+    {
+      "id": "CV-003",
+      "name": "Bandersnatch",
+      "classification": "T-Veronica B.O.W.",
+      "status": "Available",
+      "price": 20000000,
+      "avatar": "/bioweapon-avatars/bandersnatch.png",
+      "description": "Mass-produced B.O.W. with elastic limbs and unstable physiology.",
+      "abilities": ["Elastic Arm Strike", "High Mobility"]
+    },
+    {
+      "id": "RE1-002",
+      "name": "Yawn",
+      "classification": "B.O.W. Serpent",
+      "status": "Destroyed",
+      "price": 15000000,
+      "avatar": "/bioweapon-avatars/yawn.png",
+      "description": "Gigantic snake mutated by prolonged viral exposure.",
+      "abilities": ["Venom Bite", "Constriction"]
+    },
+    {
+      "id": "RE2-003",
+      "name": "Licker",
+      "classification": "T-Virus Mutation",
+      "status": "Available",
+      "price": 12000000,
+      "avatar": "/bioweapon-avatars/licker.png",
+      "description": "Skinless quadruped with heightened senses and lethal claws.",
+      "abilities": ["Wall Crawling", "Long-Range Tongue Attack", "Enhanced Hearing"]
+    },
+    {
+      "id": "RE1-003",
+      "name": "Plant 42",
+      "classification": "Bio-Organic Plant",
+      "status": "Destroyed",
+      "price": 10000000,
+      "avatar": "/bioweapon-avatars/plant-42.png",
+      "description": "Plant-based organism with rapid growth and tentacle-like appendages.",
+      "abilities": ["Acid Secretion", "Tentacle Restraint"]
+    },
+    {
+      "id": "RE3-003",
+      "name": "Brain Sucker",
+      "classification": "Human-Insect Hybrid",
+      "status": "Contained",
+      "price": 9000000,
+      "avatar": "/bioweapon-avatars/brain-sucker.png",
+      "description": "Aggressive hybrid variant capable of venomous attacks and rapid close-quarters engagement.",
+      "abilities": ["Poison Spit", "Claw Attacks", "High Mobility"]
+    },
+    {
+      "id": "RE1-005",
+      "name": "Giant Spider",
+      "classification": "T-Virus Arthropod Mutation",
+      "status": "Available",
+      "price": 8000000,
+      "avatar": "/bioweapon-avatars/giant-spider.png",
+      "description": "Oversized arachnid mutated through prolonged viral exposure, capable of venomous attacks and egg spawning.",
+      "abilities": ["Venom Spray", "Wall Crawling", "Egg Laying"]
+    },
+    {
+      "id": "RE1-006",
+      "name": "Chimera",
+      "classification": "Human-Insect Hybrid",
+      "status": "Available",
+      "price": 7000000,
+      "avatar": "/bioweapon-avatars/chimera.jpg",
+      "description": "Experimental hybrid created through human DNA splicing with insect genes. Highly aggressive and unpredictable.",
+      "abilities": ["Wall Crawling", "Ambush Attacks", "High Mobility"]
+    },
+    {
+      "id": "RE1-004",
+      "name": "Cerberus",
+      "classification": "T-Virus Canine Unit",
+      "status": "Available",
+      "price": 5000000,
+      "avatar": "/bioweapon-avatars/cerberus.png",
+      "description": "Doberman-based B.O.W. engineered for high-speed pursuit and coordinated pack attacks.",
+      "abilities": ["Enhanced Speed", "Pack Coordination", "Increased Aggression"]
+    }
+  ]
+}

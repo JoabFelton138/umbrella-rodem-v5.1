@@ -1,12 +1,13 @@
-import { PriorityThreat} from "@/app/types/priority-threat";
+import { CardShell } from "../../CardGrid/CardShell";
+import styles from "./Card.module.css";
 import { Avatar } from "../avatar/Avatar";
 import { Pill } from "../pill/Pill";
+import { Bioweapon } from "@/app/types/bioweapons";
 
-import styles from "./Card.module.css";
-import { CardShell } from "../../CardGrid/CardShell";
 
-export const ThreatCard = ({ name, status, affiliation, threatLevel, lastKnownLocation, summary, avatar }: PriorityThreat) => {
+export const BioweaponsCard = ({ name, status, classification, price, avatar, description, abilities }: Bioweapon) => {
 
+    const abilitiesList = abilities.join(", ");
     return (
         <CardShell>
                 <div className={styles.cardHeader}>
@@ -19,16 +20,16 @@ export const ThreatCard = ({ name, status, affiliation, threatLevel, lastKnownLo
                     <h3>{name.toUpperCase()}</h3>
                 </div>
                 <div className={styles.cardChipContainer}>
-                    <p>STATUS: <Pill type="status" value={status} /></p>
-                    <p>THREAT: <Pill type="threat" value={threatLevel} /></p>
+                    <p>STATUS: {status}</p>
+                    <p>PRICE: ${price}</p>
                 </div>
                 <div className={styles.cardBody}>
-                    <p>AFFILIATION: {affiliation}</p>
-                    <p>LAST KNOWN LOCATION: {lastKnownLocation}</p>
+                    <p>ABILITIES: {abilitiesList}</p>
+                    <p>CLASSIFICATION: {classification}</p>
                 </div>
                 <section className={styles.summary}>
-                    <h4>SUMMARY</h4>
-                    <p>{summary}</p>
+                    <h4>DESCRIPTION</h4>
+                    <p>{description}</p>
                 </section>
         </CardShell>
     );

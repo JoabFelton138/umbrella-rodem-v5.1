@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const navLinks = [
-  { label: "Bioweapons", href: "/products", icon: <Biohazard /> },
+  { label: "Bioweapons", href: "/bioweapons", icon: <Biohazard /> },
   { label: "Priority Threats", href: "/priority-threats", icon: <ShieldAlert /> },
   { label: "Assets", href: "/services", icon: <Briefcase /> },
   { label: "Contact", href: "/contact", icon: <Mail /> },
