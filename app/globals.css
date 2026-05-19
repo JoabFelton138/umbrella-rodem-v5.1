@@ -1,4 +1,9 @@
-html, body { height: 100%; margin: 0; }
+html, body 
+{ 
+  cursor: url('/cursors/arrow.cur'), auto;
+  height: 100%; 
+  margin: 0; 
+}
 
 :root {
   --bevel-face: #C0C0C0;
