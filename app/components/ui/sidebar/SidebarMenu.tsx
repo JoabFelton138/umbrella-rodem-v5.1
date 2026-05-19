@@ -2,7 +2,6 @@ import Link from "next/link";
 import styles from "./SidebarMenu.module.css";
 
 interface SidebarMenuProps {
-    title: string;
     links: SidebarLink[];
     collapsed: boolean;
 }
@@ -13,12 +12,9 @@ interface SidebarLink {
     icon?: React.ReactNode;
 }
 
-export const SidebarMenu = ({title, links, collapsed}: SidebarMenuProps) => {
+export const SidebarMenu = ({links, collapsed}: SidebarMenuProps) => {
     return (
         <> 
-            {!collapsed && (
-                <span className={styles.sidebarMenuTitle}>{title}</span>
-            )}
             <nav className={styles.sidebarMenu}>
                 {
                     links.map((link) => (

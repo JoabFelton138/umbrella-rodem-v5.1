@@ -35,7 +35,7 @@ export const Sidebar = ({logo, imageSrc, name, email, links}: SidebarProps) => {
                 collapsed={collapsed}
             />
             <SidebarTrigger onClick={() => setCollapsed(!collapsed)}/>
-            <SidebarMenu title="Main Menu" links={links} collapsed={collapsed}/>
+            <SidebarMenu links={links} collapsed={collapsed}/>
             <SidebarFooter imageSrc={imageSrc} name={name} email={email} collapsed={collapsed}/>
         </aside>
     );

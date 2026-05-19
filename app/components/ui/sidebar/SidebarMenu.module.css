@@ -2,18 +2,22 @@
 .sidebarMenu {
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    gap: 15px;
+    padding-top: 4px 0;
+    gap: 0;
     flex: 1;
     overflow-y: auto;
     min-height: 0;
 }
 
 .sidebarMenuItem {
-    text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    padding: 4px 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    text-decoration: none;
     color: var(--color-text);
 }
 
@@ -27,4 +31,18 @@
 
 .sidebarMenuItem > :only-child {
     margin-inline: auto;
+}
+
+.sidebarMenuItem:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.sidebarMenuItem:focus {
+    outline: none;
+}
+
+.sidebarMenuItem:focus-visible {
+    background-color: var(--color-primary);
+    color: white;
 }
