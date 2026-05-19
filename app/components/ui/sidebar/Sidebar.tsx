@@ -5,6 +5,7 @@ import styles from "./Sidebar.module.css";
 import { SidebarMenu } from "./SidebarMenu";
 import { SidebarTrigger } from "./SidebarTrigger";
 import { useState } from "react";
+import retro from "../../../styles/retro.module.css";
 
 interface SidebarProps {
     logo: string;
@@ -27,7 +28,7 @@ export const Sidebar = ({logo, imageSrc, name, email, links}: SidebarProps) => {
     const companyName = `Umbrella Rodem v5.1`;
 
     return (
-        <aside className={`${styles.sidebar} ${collapsed ? styles.collapsed : ""}`}>
+        <aside className={`${styles.sidebar} ${retro.chiseled} ${collapsed ? styles.collapsed : ""}`}>
             <SidebarHeader 
                 logo={logo} 
                 companyName={companyName} 
