@@ -1,10 +1,3 @@
-html, body 
-{ 
-  cursor: url('/cursors/arrow.cur'), auto;
-  height: 100%; 
-  margin: 0; 
-}
-
 :root {
   --bevel-face: #C0C0C0;
   --bevel-light: #FFFFFF;
@@ -25,21 +18,19 @@ html, body
   --color-surface: #1A1A1A;
   --color-surface-text: #E0E0E0;
   --color-text: var(--foreground);
+
+  --cursor-default: url('/cursors/arrow.cur'), auto;
+  --cursor-pointer: url('/cursors/Cursor_15.cur'), auto;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0A0A0A;
-    --foreground: #171717;
-    --color-primary: #222222;
-    --color-primary-hover: #2A2A2A;
-    --color-sidebar-bg: #1A1A1A;
-    --color-sidebar-border: #2A2A2A;
-    --color-card-bg: #1A1A1A;
-    --color-border: #2A2A2A;
-    --color-text: #E0E0E0;
-  }
-} */
+html, body 
+{ 
+  cursor: var(--cursor-default);
+}
+
+a, button {
+  cursor: var(--cursor-pointer);
+}
 
 body {
   background: var(--background);
