@@ -14,8 +14,8 @@ export const SidebarFooter = ({imageSrc, name, email, collapsed}: SidebarFooterP
             <Avatar 
                 imageSrc={imageSrc} 
                 alt="logo" 
-                width={50} 
-                height={50} 
+                width={40} 
+                height={40} 
             />
             {!collapsed && (
                 <div className={styles.sidebarFooterContent}>

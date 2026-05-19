@@ -14,8 +14,8 @@ export const SidebarHeader = ({logo, companyName, companyDescription, collapsed}
             <Image
                 src={logo}
                 alt="logo"
-                width={50}
-                height={50}
+                width={40}
+                height={40}
                 loading="eager"
             />
             {!collapsed && (
