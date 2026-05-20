@@ -1,5 +1,7 @@
-import { CardGrid } from "./components/CardGrid/CardGrid";
+import { Desktop } from "./components/desktop/Desktop";
 
 export default function Home() {
-  return <CardGrid />;
+  return (
+    <Desktop/>
+  );
 }

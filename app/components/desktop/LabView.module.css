@@ -1,0 +1,13 @@
+.labViewWindow {
+    background: url('/lab.webp') center / cover no-repeat;
+    width: 370px;
+    height: 290px;
+}
+
+.window {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: fit-content;
+    padding: 4px;
+}
