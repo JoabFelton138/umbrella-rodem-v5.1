@@ -1,4 +1,4 @@
-import { CardShell } from "../../CardGrid/CardShell";
+import { CardShell } from "../../card-grid/CardShell";
 import styles from "./Card.module.css";
 import { Avatar } from "../avatar/Avatar";
 import { Pill } from "../pill/Pill";

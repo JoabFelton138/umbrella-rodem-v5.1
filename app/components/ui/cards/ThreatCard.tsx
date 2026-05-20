@@ -3,7 +3,7 @@ import { Avatar } from "../avatar/Avatar";
 import { Pill } from "../pill/Pill";
 
 import styles from "./Card.module.css";
-import { CardShell } from "../../CardGrid/CardShell";
+import { CardShell } from "../../card-grid/CardShell";
 
 export const ThreatCard = ({ name, status, affiliation, threatLevel, lastKnownLocation, summary, avatar }: PriorityThreat) => {
 

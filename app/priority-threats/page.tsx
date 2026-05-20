@@ -1,4 +1,4 @@
-import { CardGrid } from "../components/CardGrid/CardGrid";
+import { CardGrid } from "../components/card-grid/CardGrid";
 import { priorityThreats } from "../data/priority-threats.json";
 import { ThreatCard } from "../components/ui/cards/ThreatCard";
 import { PriorityThreat } from "../types/priority-threat";

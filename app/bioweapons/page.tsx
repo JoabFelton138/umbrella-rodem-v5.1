@@ -1,4 +1,4 @@
-import { CardGrid } from "../components/CardGrid/CardGrid"
+import { CardGrid } from "../components/card-grid/CardGrid"
 import { Bioweapon } from "../types/bioweapons";
 import { bioweapons } from "../data/bioweapons.json";
 import { BioweaponsCard } from "../components/ui/cards/BioweaponsCard";
