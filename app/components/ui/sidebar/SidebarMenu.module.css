@@ -34,7 +34,7 @@
 }
 
 .sidebarMenuItem:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-hover);
     color: white;
 }
 
@@ -43,6 +43,6 @@
 }
 
 .sidebarMenuItem:focus-visible {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-hover);
     color: white;
 }

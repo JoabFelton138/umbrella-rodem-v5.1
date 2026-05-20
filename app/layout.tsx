@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { VT323 } from "next/font/google";
-import { Biohazard, Briefcase, Mail, ShieldAlert } from "lucide-react";
+import { Biohazard, Briefcase, Dna, Mail, ShieldAlert } from "lucide-react";
 import "./globals.css";
 import styles from "./layout.module.css";
 import { Sidebar } from "./components/ui/sidebar/Sidebar";
@@ -20,6 +20,7 @@ const navLinks = [
   { label: "Bioweapons", href: "/bioweapons", icon: <Biohazard /> },
   { label: "Priority Threats", href: "/priority-threats", icon: <ShieldAlert /> },
   { label: "Assets", href: "/services", icon: <Briefcase /> },
+  { label: "Facilities", href: "/facilities", icon: <Dna /> },
   { label: "Contact", href: "/contact", icon: <Mail /> },
 ];
 

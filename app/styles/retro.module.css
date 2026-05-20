@@ -21,3 +21,14 @@
     border-bottom-color: var(--bevel-light);
     border-radius: 0;
 }
+
+.pressed {
+    background: var(--bevel-face);
+    border: 2px solid;
+    border-top-color: var(--bevel-darker);
+    border-left-color: var(--bevel-darker);
+    border-right-color: var(--bevel-light);
+    border-bottom-color: var(--bevel-light);
+    border-radius: 0;
+    box-shadow: none;
+}

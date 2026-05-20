@@ -5,9 +5,10 @@ import styles from "./SidebarTrigger.module.css";
 
 interface SidebarTriggerProps {
     onClick: () => void;
+    collapsed: boolean;
 }
 
-export const SidebarTrigger = ({onClick}: SidebarTriggerProps) => {
+export const SidebarTrigger = ({onClick, collapsed}: SidebarTriggerProps) => {
     return (
         <Button
             variant="ghost"

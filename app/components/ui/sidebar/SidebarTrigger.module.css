@@ -1,11 +1,33 @@
 .sidebarTrigger {
     position: absolute;
     top: 25px;
-    right: -45px;
+    right: -42px;
     z-index: 1;
-    background-color: var(--color-sidebar-bg);
-    border: var(--color-sidebar-border);
-    color: var(--color-text);
+
+    border-radius: 0 !important;
+    transition: none;
+    background: var(--bevel-face);
+    border: 2px solid;
+    border-top-color: var(--bevel-light);
+    border-left-color: var(--bevel-light);
+    border-right-color: var(--bevel-darker);
+    border-bottom-color: var(--bevel-darker);
+}
+
+.sidebarTrigger:active {
+    border-top-color: var(--bevel-darker);
+    border-left-color: var(--bevel-darker);
+    border-right-color: var(--bevel-light);
+    border-bottom-color: var(--bevel-light);
+    transform: translate(1px, 1px);
+}
+
+.sidebarTrigger[data-pressed="true"] {
+    border-top-color: var(--bevel-darker);
+    border-left-color: var(--bevel-darker);
+    border-right-color: var(--bevel-light);
+    border-bottom-color: var(--bevel-light);
+    transform: translate(1px, 1px);
 }
 
 .sidebarTrigger:hover {
