@@ -20,7 +20,8 @@
   --color-text: var(--foreground);
 
   --cursor-default: url('/cursors/arrow.cur'), auto;
-  --cursor-pointer: url('/cursors/Cursor_15.cur'), auto;
+  --cursor-pointer: url('/cursors/pointer.cur'), auto;
+  --cursor-disabled: url('/cursors/disabled.cur'), auto;
 }
 
 html, body 
