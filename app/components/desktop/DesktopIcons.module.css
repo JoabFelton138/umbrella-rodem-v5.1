@@ -1,0 +1,7 @@
+.desktopIconsContainer {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    display: flex;
+    gap: 0;
+}

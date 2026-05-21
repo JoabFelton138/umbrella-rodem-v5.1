@@ -1,13 +1,16 @@
-.labViewWindow {
-    background: url('/lab.webp') center / cover no-repeat;
-    width: 370px;
-    height: 290px;
-}
-
 .window {
     position: absolute;
-    top: 55%;
-    left: 50%;
-    width: fit-content;
+    top: 65%;
+    left: 70%;
+    transform: translate(-50%, -50%);
     padding: 4px;
+    width: min(460px, 50%);
+    aspect-ratio: 4 / 3;
+}
+.labViewImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
 }
