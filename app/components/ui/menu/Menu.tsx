@@ -19,6 +19,7 @@ interface MenuLink {
 }
 
 export const Menu = ({logo, links}: MenuProps) => {
+    
     const playSelect = useSfx("/sounds/select.mp3");
     const playNavigate = useSfx("/sounds/navigate.mp3");
 
