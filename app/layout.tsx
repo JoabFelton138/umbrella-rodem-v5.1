@@ -4,6 +4,7 @@ import { Biohazard, Briefcase, Dna, HomeIcon, Mail, ShieldAlert } from "lucide-r
 import "./globals.css";
 import styles from "./layout.module.css";
 import { Sidebar } from "./components/ui/sidebar/Sidebar";
+import { Menu } from "./components/ui/menu/Menu";
 
 const vt323 = VT323({
   variable: "--vt323",
@@ -34,11 +35,15 @@ export default function RootLayout({
     <html lang="en" className={`${vt323.variable}`}>
         <body>
           <div className={styles.container}>
-            <Sidebar
+            {/* <Sidebar
               logo="/logo.png"
               imageSrc="/chippy.jpg"
               name="Joab Felton"
               email="jfelton@umbrella.com"
+              links={navLinks}
+            /> */}
+            <Menu
+              logo="/logo.png"
               links={navLinks}
             />
             <main className={styles.main}>{children}</main>

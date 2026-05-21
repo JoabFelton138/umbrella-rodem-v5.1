@@ -1,4 +1,4 @@
-.container {
+/* .container {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -12,5 +12,20 @@
     flex: 1;
     min-width: 0;
     padding: 50px;
+    overflow-y: auto;
+} */
+
+.container {
+    min-height: 100dvh;
+    background-image: url('/rodem-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    min-height: 100dvh;
+    padding: 50px;
+    padding-bottom: 82px;
+    box-sizing: border-box;
     overflow-y: auto;
 }
