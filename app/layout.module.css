@@ -16,7 +16,9 @@
 } */
 
 .container {
-    min-height: 100dvh;
+    height: 100dvh;
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
     background-image: url('/rodem-bg.webp');
     background-size: cover;
     background-position: center;
@@ -25,9 +27,9 @@
   }
 
 .main {
-    min-height: 100dvh;
+    min-height: 0;
     padding: 50px;
-    padding-bottom: 82px;
+    padding-bottom: 125px;
     box-sizing: border-box;
     overflow-y: auto;
 }
