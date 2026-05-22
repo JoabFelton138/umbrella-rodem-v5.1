@@ -1,14 +1,14 @@
 import styles from "./LabView.module.css";
-import retro from "@/app/styles/retro.module.css";
+import { WindowFrame } from "./WindowFrame";
 
 export const LabViewWindow = () => {
     return (
-        <div className={`${retro.chiseled} ${styles.window}`}>
+        <WindowFrame className={`${styles.window}`}>
             <img 
                 src="/lab.webp" 
                 alt="Lab View" 
-                className={`${styles.labViewImage} ${retro.sunken}`} 
+                className={`${styles.labViewImage}`} 
             />
-        </div>
+        </WindowFrame>
     );
 };
