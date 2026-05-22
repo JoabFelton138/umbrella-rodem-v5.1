@@ -24,7 +24,18 @@
 
 .cardGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 320px));
+    grid-template-columns: repeat(3, minmax(260px, 375px));
     gap: 1.5rem;
     justify-content: center;
+}
+
+@media (max-width: 1050px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, minmax(260px, 320px));
+  }
+}
+@media (max-width: 700px) {
+  .cardGrid {
+    grid-template-columns: minmax(260px, 320px);
+  }
 }
