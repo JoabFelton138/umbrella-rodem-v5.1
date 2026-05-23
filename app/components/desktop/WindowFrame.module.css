@@ -19,7 +19,7 @@
     border-top-color: var(--bevel-darker);
     border-left-color: var(--bevel-darker);
     border-right-color: var(--bevel-light);
-    border-bottom-color: var(--bevel-darker);
+    border-bottom-color: var(--bevel-dark);
     padding: 0;
     gap: 0;
   }
@@ -54,6 +54,7 @@
   }
   .content {
     position: relative;
+    overflow: hidden;
     margin-top: 0;
     border-left: 1px solid var(--bevel-darker);
     border-right: 1px solid var(--bevel-light);

@@ -1,0 +1,65 @@
+.scrollbar {
+    position: absolute;
+    background: var(--bevel-face);
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.vertical{
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    border-top: 0;
+    border-bottom-color: var(--bevel-light);
+    border-left-color: var(--bevel-dark);
+    border-right-color: var(--bevel-darker);
+    cursor: var(--cursor-disabled);
+}
+
+.horizontal{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    width: 100%;
+    border-top: 0;
+    border-bottom-color: var(--bevel-darker);
+    border-left-color: var(--bevel-darker);
+    border-top-color: var(--bevel-darker);
+}
+
+
+.scroll{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    
+    width: 30%;
+    border-top: 0;
+    background: var(--bevel-lighter);
+    border-right: 1px solid var(--bevel-darker);
+    box-sizing: border-box;
+    cursor: var(--cursor-disabled);
+}
+
+.cornerButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 10px;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+
+    background: var(--bevel-face);
+    border: 1px solid;
+    border-top-color: var(--bevel-light);
+    border-left-color: var(--bevel-light);
+    border-right-color: var(--bevel-darker);
+    border-bottom-color: var(--bevel-darker);
+    
+    cursor: var(--cursor-disabled);
+}
