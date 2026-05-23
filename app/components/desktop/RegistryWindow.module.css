@@ -1,0 +1,55 @@
+.registryWindow {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.registryContent {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}
+
+
+.registryHeader {
+    font-size: clamp(30px, 4vw, 52px);
+    line-height: 0.78;
+    letter-spacing: 0.08em;
+}
+
+.registryHeader p {
+    margin: 0;
+}
+
+.systemLine {
+    white-space: nowrap;
+}
+
+.version {
+    text-align: right;
+    padding-right: 92px;
+}
+
+.registryInput {
+    width: 100%;
+    min-height: 160px;
+    margin-top: 10px;
+
+    background: transparent;
+    border: 0;
+    resize: none;
+    outline: none;
+
+    color: inherit;
+    font: inherit;
+    letter-spacing: inherit;
+}
+
+.transparentContent {
+    background: transparent;
+}

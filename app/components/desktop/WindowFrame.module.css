@@ -1,12 +1,9 @@
 .windowFrame {
     box-sizing: border-box;
-    background: var(--bevel-face);
     border: 2px solid;
-    border-top-color: var(--bevel-light);
-    border-left-color: var(--bevel-light);
-    border-right-color: var(--bevel-darker);
-    border-bottom-color: var(--bevel-darker);
-    padding: 2px;
+    border-width: 5px;
+    border-color: var(--bevel-face);
+    padding: 0;
   }
 
   .titleBar {
@@ -36,6 +33,10 @@
     border-right-color: var(--bevel-darker);
     border-bottom-color: var(--bevel-darker);
     cursor: var(--cursor-disabled);
+  }
+
+  .titleBar, .controlButton {
+    background: var(--bevel-face);
   }
 
   .title {

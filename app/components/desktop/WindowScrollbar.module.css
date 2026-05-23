@@ -8,7 +8,7 @@
 .vertical{
     top: 0;
     right: 0;
-    width: 10px;
+    width: 14px;
     height: 100%;
     border-top: 0;
     border-bottom-color: var(--bevel-light);
@@ -21,12 +21,17 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 10px;
+    height: 16px;
     width: 100%;
-    border-top: 0;
+    box-sizing: border-box;
+    
+    border: 1px solid;
+    border-right-color: var(--bevel-darker);
     border-bottom-color: var(--bevel-darker);
     border-left-color: var(--bevel-darker);
     border-top-color: var(--bevel-darker);
+
+    background: var(--bevel-face);
 }
 
 
@@ -37,10 +42,19 @@
     top: 0;
     
     width: 30%;
-    border-top: 0;
-    background: var(--bevel-lighter);
-    border-right: 1px solid var(--bevel-darker);
     box-sizing: border-box;
+
+    background: var(--bevel-lighter);
+    border: 1px solid;
+    border-top-color: var(--bevel-light);
+    border-left-color: var(--bevel-dark);
+    border-right-color: var(--bevel-darker);
+    border-bottom-color: var(--bevel-darker);
+
+    box-shadow:
+        inset 1px 1px 0 var(--bevel-lighter),
+        inset -1px -1px 0 var(--bevel-dark);
+
     cursor: var(--cursor-disabled);
 }
 
@@ -48,18 +62,18 @@
     position: absolute;
     top: 0;
     right: 0;
-
-    width: 10px;
+    width: 14px;
     height: 100%;
     padding: 0;
     box-sizing: border-box;
-
     background: var(--bevel-face);
     border: 1px solid;
     border-top-color: var(--bevel-light);
     border-left-color: var(--bevel-light);
     border-right-color: var(--bevel-darker);
     border-bottom-color: var(--bevel-darker);
-    
+    box-shadow:
+      inset 1px 1px 0 var(--bevel-lighter),
+      inset -1px -1px 0 var(--bevel-dark);
     cursor: var(--cursor-disabled);
-}
+  }
