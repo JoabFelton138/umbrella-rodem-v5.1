@@ -4,8 +4,7 @@ import { Biohazard, Briefcase, Dna, HomeIcon, Mail, ShieldAlert } from "lucide-r
 import "./globals.css";
 import styles from "./layout.module.css";
 import { Sidebar } from "./components/ui/sidebar/Sidebar";
-import { Menu } from "./components/ui/menu/menu";
-
+import { Menu } from "./components/ui/menu/Menu";
 
 const vt323 = VT323({
   variable: "--vt323",
