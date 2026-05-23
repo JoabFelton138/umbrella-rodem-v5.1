@@ -23,7 +23,7 @@ const navLinks = [
   { label: "Priority Threats", href: "/priority-threats", icon: <ShieldAlert /> },
   { label: "Assets", href: "/services", icon: <Briefcase /> },
   { label: "Facilities", href: "/facilities", icon: <Dna /> },
-  { label: "Contact", href: "/contact", icon: <Mail /> },
+  { label: "Contact", href: "https://github.com/JoabFelton138", icon: <Mail /> },
 ];
 
 export default function RootLayout({
