@@ -17,7 +17,7 @@
 
 
 .registryHeader {
-    font-size: clamp(30px, 4vw, 52px);
+    font-size: clamp(28px, 3vw, 50px);
     line-height: 0.78;
     letter-spacing: 0.08em;
 }
@@ -30,15 +30,23 @@
     white-space: nowrap;
 }
 
-.version {
-    text-align: right;
-    padding-right: 92px;
+.registryText {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.registryInputLine {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25em;
+    margin-top: 10px;
 }
 
 .registryInput {
+    flex: 1;
     width: 100%;
     min-height: 160px;
-    margin-top: 10px;
 
     background: transparent;
     border: 0;
@@ -52,4 +60,65 @@
 
 .transparentContent {
     background: transparent;
+}
+
+.typeLine {
+    --type-delay: 0s;
+    --type-duration: 1s;
+    --type-steps: 1;
+    display: inline-block;
+    max-width: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: bottom;
+    animation: typeLine var(--type-duration) steps(var(--type-steps), end) var(--type-delay) forwards;
+}
+.typeSystem {
+    --type-duration: 1.15s;
+    --type-steps: 23;
+}
+.typeVersion {
+    --type-delay: 1.2s;
+    --type-duration: 0.45s;
+    --type-steps: 7;
+}
+.typeStaff {
+    --type-delay: 1.75s;
+    --type-duration: 1.35s;
+    --type-steps: 29;
+}
+
+.typeRegistry {
+    --type-delay: 3.1s;
+    --type-duration: 0.55s;
+    --type-steps: 9;
+}
+
+.typeAccessing {
+    --type-delay: 5.3s;
+    --type-duration: 0.8s;
+    --type-steps: 13;
+}
+
+.typeUsername {
+    --type-delay: 6.25s;
+    --type-duration: 1.05s;
+    --type-steps: 20;
+}
+
+.promptPrefix {
+    opacity: 0;
+    font-size: 1.2em;
+    animation: showPrompt 0s 7.3s forwards;
+}
+@keyframes showPrompt {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes typeLine {
+    to {
+        max-width: 100%;
+    }
 }
