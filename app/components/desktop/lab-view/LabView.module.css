@@ -1,7 +1,7 @@
 .window {
     position: absolute;
-    top: 70%;
-    left: 55%;
+    top: 67%;
+    left: 58%;
     transform: translate(-50%, -50%);
     width: min(435px, 50%);
     aspect-ratio: 4 / 3;
