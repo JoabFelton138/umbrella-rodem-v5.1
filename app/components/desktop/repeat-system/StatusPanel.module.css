@@ -1,0 +1,28 @@
+.statusPanel {
+    display: flex;
+    width: 100%;
+    gap: 10px
+}
+
+.statusPanelButton {
+    flex: 0 0 40px;
+    padding: 2px 6px;
+    cursor: var(--cursor-disabled);
+}
+
+.statusPanelMetric {
+    flex: 1;
+    text-align: center;
+    padding: 4px 8px;
+    color: green;
+    font-size: 3rem;
+}
+
+.playIcon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 14px solid var(--bevel-darker);
+}
