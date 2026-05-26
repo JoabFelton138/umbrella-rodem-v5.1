@@ -9,7 +9,7 @@
   .titleBar {
     display: grid;
     grid-template-columns: 16px 1fr 16px;
-    height: 16px;
+    height: 18px;
     box-sizing: border-box;
     background: var(--bevel-face);
     border: 1px solid;

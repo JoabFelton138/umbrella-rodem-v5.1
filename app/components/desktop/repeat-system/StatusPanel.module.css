@@ -13,7 +13,7 @@
 .statusPanelMetric {
     flex: 1;
     text-align: center;
-    padding: 4px 8px;
+    padding: 4px 6px;
     color: green;
     font-size: 2rem;
 }
