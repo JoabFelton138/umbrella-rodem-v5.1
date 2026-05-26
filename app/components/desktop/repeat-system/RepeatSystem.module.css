@@ -1,0 +1,21 @@
+.repeatSystem {
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    width: 350px;
+    transform: translate(-50%, -50%);
+}
+
+.repeatSystemContent {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    background-color: #D6D8D5;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}
+
+.repeatSystemContent span {
+    font-style: italic;
+    font-size: 25px;
+}

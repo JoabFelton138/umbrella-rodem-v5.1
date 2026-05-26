@@ -1,13 +1,13 @@
 import styles from "./RegistryWindow.module.css";
 
 import { horizontal, vertical } from "@/app/types/orientation";
-import { WindowFrame } from "./WindowFrame";
-import { WindowScrollbar } from "./WindowScrollbar";
+import { WindowFrame } from "../window/WindowFrame";
+import { WindowScrollbar } from "../window/WindowScrollbar";
 
 export const RegistryWindow = () => {
     return (
         <WindowFrame 
-            title="Program (1:1)" 
+            title="PROGRAM (1:1)" 
             className={styles.registryWindow} 
             contentClassName={styles.transparentContent}
         >

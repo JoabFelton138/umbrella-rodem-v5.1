@@ -1,7 +1,7 @@
 import { horizontal, vertical } from "@/app/types/orientation";
 import styles from "./LabView.module.css";
-import { WindowFrame } from "./WindowFrame";
-import { WindowScrollbar } from "./WindowScrollbar";
+import { WindowFrame } from "../window/WindowFrame";
+import { WindowScrollbar } from "../window/WindowScrollbar";
 
 export const LabViewWindow = () => {
     return (

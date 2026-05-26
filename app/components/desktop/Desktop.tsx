@@ -1,8 +1,9 @@
-import { LabViewWindow } from "./LabViewWindow";
+import { LabViewWindow } from "./lab-view/LabViewWindow";
 import styles from "./Desktop.module.css";
-import { DesktopIcons } from "./DesktopIcons";
-import { DataFile } from "./DataFile";
-import { RegistryWindow } from "./RegistryWindow";
+import { DesktopIcons } from "./desktop-icons/DesktopIcons";
+import { DataFile } from "./data-file/DataFile";
+import { RegistryWindow } from "./registry-window/RegistryWindow";
+import { RepeatSystem } from "./repeat-system/RepeatSystem";
 
 export const Desktop = () => {
     return (
@@ -10,6 +11,7 @@ export const Desktop = () => {
             <DesktopIcons />
             <RegistryWindow />
             <LabViewWindow />
+            <RepeatSystem />
             <DataFile />
         </div>
     );
