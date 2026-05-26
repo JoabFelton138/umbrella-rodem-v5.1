@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { VT323 } from "next/font/google";
+import { VT323, IBM_Plex_Serif } from "next/font/google";
 import { Biohazard, Briefcase, Dna, HomeIcon, Mail, ShieldAlert } from "lucide-react";
 import "./globals.css";
 import styles from "./layout.module.css";
@@ -8,6 +8,12 @@ import { Menu } from "./components/ui/menu/Menu";
 
 const vt323 = VT323({
   variable: "--vt323",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
+const ibmPlexSerif = IBM_Plex_Serif({
+  variable: "--ibm-plex-serif",
   subsets: ["latin"],
   weight: ["400"],
 });
@@ -32,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${vt323.variable}`}>
+    <html lang="en" className={`${ibmPlexSerif.variable}`}>
         <body>
           <div className={styles.container}>
             {/* <Sidebar

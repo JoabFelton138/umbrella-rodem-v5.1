@@ -17,9 +17,8 @@
 
 
 .registryHeader {
-    font-size: clamp(28px, 3vw, 50px);
-    line-height: 0.78;
-    letter-spacing: 0.08em;
+    font-size: 35px;
+    letter-spacing: 0.14em;
 }
 
 .registryHeader p {
@@ -28,6 +27,7 @@
 
 .systemLine {
     white-space: nowrap;
+    letter-spacing: 0.04em;
 }
 
 .registryText {
