@@ -37,6 +37,6 @@
 
 .link:hover, .link:focus-visible {
     color: #fff;
-    background-color: var(--color-primary);
+    background-color: var(--color-primary-hover);
     outline: none;
 }
