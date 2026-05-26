@@ -35,9 +35,8 @@ a, button {
 
 body {
   background: var(--background);
-  font-family: var(--vt323), monospace;
-  font-size: 20px;
-  letter-spacing: 0.05em;
+  font-family: var(--ibm-plex-serif), serif;
+  font-size: 16px;
   color: var(--color-text);
   margin: 0;
   padding: 0;
