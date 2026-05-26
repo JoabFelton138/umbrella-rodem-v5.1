@@ -46,7 +46,7 @@
     align-items: center;
     justify-content: center;
     background: #b8b0b8;
-    color: var(--bevel-dark);
+    color: black;
     line-height: 1;
     overflow: hidden;
     white-space: nowrap;
