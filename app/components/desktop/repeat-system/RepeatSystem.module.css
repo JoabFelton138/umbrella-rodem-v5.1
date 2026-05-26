@@ -9,13 +9,23 @@
 .repeatSystemContent {
     display: flex;
     flex-direction: column;
+    gap: 12px;
     height: 250px;
     background-color: #D6D8D5;
     padding: 2px 8px;
     box-sizing: border-box;
 }
 
-.repeatSystemContent span {
+.repeatSystemContent h3 {
     font-style: italic;
     font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.repeatButton {
+    align-self: flex-end;
+    width: 55px;
+    padding: 4px 8px;
+    cursor: var(--cursor-disabled);
 }
