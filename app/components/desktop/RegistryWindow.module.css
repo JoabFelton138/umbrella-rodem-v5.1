@@ -1,14 +1,14 @@
 .registryWindow {
     position: absolute;
-    top: 32%;
-    left: 40%;
-    width: 60%;
+    top: 35%;
+    left: 35%;
+    width: 65%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 2;
 }
 
 .registryContent {
-    height: 400px;
+    height: 450px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     padding: 2px 8px;
