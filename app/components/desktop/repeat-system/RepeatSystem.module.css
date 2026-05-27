@@ -12,7 +12,7 @@
     gap: 12px;
     height: 250px;
     background-color: #D6D8D5;
-    padding: 15px 8px 2px 4px;
+    padding: 12px;
     box-sizing: border-box;
 }
 
@@ -25,7 +25,8 @@
 
 .repeatButton {
     align-self: flex-end;
-    min-width: 55px;
+    text-align: center;
+    min-width: 60px;
     padding: 4px 8px;
     cursor: var(--cursor-disabled);
 }

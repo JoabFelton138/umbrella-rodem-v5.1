@@ -58,6 +58,6 @@
     overflow: hidden;
     margin-top: 0;
     border-left: 1px solid var(--bevel-darker);
-    border-right: 1px solid var(--bevel-light);
-    border-bottom: 1px solid var(--bevel-light);
+    border-right: 1px solid var(--bevel-darker);
+    border-bottom: 1px solid var(--bevel-darker);
   }
