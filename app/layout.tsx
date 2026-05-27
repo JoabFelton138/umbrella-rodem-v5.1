@@ -26,7 +26,7 @@ const navLinks = [
   { label: "Home", href: "/", icon: <HomeIcon /> },
   { label: "Bioweapons", href: "/bioweapons", icon: <Biohazard /> },
   { label: "Priority Threats", href: "/priority-threats", icon: <ShieldAlert /> },
-  { label: "Assets", href: "/services", icon: <Briefcase /> },
+  { label: "Assets", href: "/assets", icon: <Briefcase /> },
   { label: "Facilities", href: "/facilities", icon: <Dna /> },
   { label: "Contact", href: "https://github.com/JoabFelton138", icon: <Mail /> },
 ];

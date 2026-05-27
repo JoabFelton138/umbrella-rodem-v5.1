@@ -4,6 +4,7 @@ import { DesktopIcons } from "./desktop-icons/DesktopIcons";
 import { DataFile } from "./data-file/DataFile";
 import { RegistryWindow } from "./registry-window/RegistryWindow";
 import { RepeatSystem } from "./repeat-system/RepeatSystem";
+import { Error } from "../error-dialogue/Error";
 
 export const Desktop = () => {
     return (
