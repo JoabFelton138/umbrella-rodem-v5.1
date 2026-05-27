@@ -1,0 +1,53 @@
+.errorContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: min(92vw, 760px);
+    min-height: 200px;
+    max-height: min(90vh, 520px);
+
+    width: min(92vw, 760px);
+    background: #D6D8D5;
+    z-index: 1000;
+}
+
+.errorHeader {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    height: fit-content;
+    background: var(--color-primary-hover);
+    color: white;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+.errorMessage {
+    flex: 1;
+    min-height: 0;
+    padding: clamp(12px, 2vw, 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(8px, 1.5vw, 16px);
+}
+
+.errorMessageText {
+    text-align: center;
+    font-size: clamp(1rem, 2.4vw, 1.5rem);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.errorIcon {
+    color: #000;        /* drives stroke via currentColor */
+    stroke: #000;
+    fill: #ffeb3b;      /* yellow triangle body */
+    stroke-width: 1.75;
+    width: clamp(35px, 6vw, 65);
+    height: clamp(35px, 6vw, 65px);
+  }
