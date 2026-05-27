@@ -3,6 +3,7 @@
     border: 2px solid;
     border-width: 5px;
     border-color: var(--bevel-face);
+    outline: 1px solid var(--bevel-dark);
     padding: 0;
   }
 
@@ -15,7 +16,7 @@
     border: 1px solid;
     border-top-color: var(--bevel-darker);
     border-left-color: var(--bevel-darker);
-    border-right-color: var(--bevel-light);
+    border-right-color: var(--bevel-darker);
     border-bottom-color: var(--bevel-dark);
     padding: 0;
     gap: 0;
