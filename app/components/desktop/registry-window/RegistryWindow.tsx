@@ -36,7 +36,7 @@ export const RegistryWindow = () => {
                             </p>
                             <p>
                                 <span className={`${styles.typeLine} ${styles.typeAccessing}`}>
-                                    Accessing ...
+                                    Accessing .....
                                 </span>
                             </p>
                             <p>

@@ -3,7 +3,6 @@ import { VT323, IBM_Plex_Serif } from "next/font/google";
 import { Biohazard, Briefcase, Dna, HomeIcon, Mail, ShieldAlert } from "lucide-react";
 import "./globals.css";
 import styles from "./layout.module.css";
-import { Sidebar } from "./components/ui/sidebar/Sidebar";
 import { Menu } from "./components/ui/menu/Menu";
 
 const vt323 = VT323({
@@ -41,13 +40,6 @@ export default function RootLayout({
     <html lang="en" className={`${ibmPlexSerif.variable}`}>
         <body>
           <div className={styles.container}>
-            {/* <Sidebar
-              logo="/logo.png"
-              imageSrc="/chippy.jpg"
-              name="Joab Felton"
-              email="jfelton@umbrella.com"
-              links={navLinks}
-            /> */}
             <Menu
               logo="/logo.png"
               links={navLinks}
