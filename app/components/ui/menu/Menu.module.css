@@ -6,23 +6,23 @@
     z-index: 100;
 
     box-sizing: border-box;
-    min-height: 52px;
-    padding: 6px 25px;
+    min-height: clamp(40px, 8vh,52px);
+    padding: clamp(6px, 1.5vw, 12px) clamp(16px, 3vw, 32px);
+    gap: clamp(12px, 3vw, 32px);
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
 
     background-color: var(--bevel-face);
-    font-size: 24px;
+    font-size: clamp(16px, 2vw, 24px);
     line-height: 1;
 }
 
 .links {
     display: flex;
     align-items: center;
-    gap: 25px;
+    gap: clamp(12px, 3vw, 32px);
     margin: 0;
     padding: 0;
     list-style: none;
