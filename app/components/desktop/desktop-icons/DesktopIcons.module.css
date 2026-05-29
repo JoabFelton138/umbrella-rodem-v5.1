@@ -1,7 +1,13 @@
 .desktopIconsContainer {
     position: absolute;
-    top: 80%;
-    left: 10%;
+    top: clamp(68%, 76vh, 80%);
+    left: clamp(6%, 8vw, 10%);
     display: flex;
     gap: 0;
 }
+
+@media (max-width: 900px) {
+    .desktopIconsContainer {
+      display: none;
+    }
+  }
