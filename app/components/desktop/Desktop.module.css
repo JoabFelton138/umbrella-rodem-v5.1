@@ -8,18 +8,11 @@
     top: clamp(52%, 72%, 78%);
     left: clamp(52%, 60%, 68%);
     transform: translate(-50%, -50%);
-    width: clamp(240px, 42vw, 435px);
+    width: clamp(220px, 38vw, 435px);
     aspect-ratio: 4 / 3;
 }
 
 @media (max-width: 900px) {
-  .labCluster {
-    top: 64%;
-    left: 56%;
-    width: clamp(220px, 52vw, 380px);
-  }
-}
-@media (max-width: 640px) {
   .labCluster {
     display: none;
   }

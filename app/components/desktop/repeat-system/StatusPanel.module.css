@@ -1,28 +1,28 @@
 .statusPanel {
     display: flex;
     width: 100%;
-    gap: 10px;
+    gap: clamp(6px, 1vw, 10px);
 }
 
 .statusPanelButton {
-    flex: 0 0 40px;
-    padding: 2px 6px;
+    flex: 0 0 clamp(28px, 8vw, 40px);
+    padding: clamp(2px, 0.5vw, 2px) clamp(4px, 1vw, 6px);
     cursor: var(--cursor-disabled);
 }
 
 .statusPanelMetric {
     flex: 1;
     text-align: center;
-    padding: 4px 6px;
+    padding: clamp(2px, 0.6vw, 4px) clamp(4px, 0.8vw, 6px);
     color: green;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2.2vw, 2rem);
 }
 
 .playIcon {
     display: inline-block;
     width: 0;
     height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 14px solid var(--bevel-darker);
+    border-top: clamp(6px, 1.2vw, 10px) solid transparent;
+    border-bottom: clamp(6px, 1.2vw, 10px) solid transparent;
+    border-left: clamp(8px, 1.6vw, 14px) solid var(--bevel-darker);
 }
