@@ -40,3 +40,9 @@
     background-color: var(--color-primary-hover);
     outline: none;
 }
+
+@media (max-width: 640px) {
+    .menu {
+        display: none;
+    }
+}

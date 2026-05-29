@@ -1,12 +1,9 @@
 .window {
     position: absolute;
-    top: 72%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    width: min(435px, 50%);
-    aspect-ratio: 4 / 3;
-    z-index: 1;
+    inset: 0;
+    z-index: 2;
 }
+
 .labViewImage {
     display: block;
     width: 100%;

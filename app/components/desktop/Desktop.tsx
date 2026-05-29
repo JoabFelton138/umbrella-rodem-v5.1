@@ -10,9 +10,11 @@ export const Desktop = () => {
     return (
         <div className={styles.desktop}>
             <DesktopIcons />
-            <RegistryWindow />
-            <LabViewWindow />
-            <RepeatSystem />
+            {/* <RegistryWindow /> */}
+            <div className={styles.labCluster}>
+                <LabViewWindow />
+                <RepeatSystem />
+            </div>
             <DataFile />
         </div>
     );

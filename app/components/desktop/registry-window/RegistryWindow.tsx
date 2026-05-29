@@ -25,15 +25,10 @@ export const RegistryWindow = () => {
                         </p>
                         <p>
                             <span className={`${styles.typeLine} ${styles.typeStaff}`}>
-                                Culture Experiment Room Staff
+                                Culture Experiment Room Staff Registry.
                             </span>
                         </p>
                         <div className={styles.registryText}>
-                            <p>
-                                <span className={`${styles.typeLine} ${styles.typeRegistry}`}>
-                                    Registry.
-                                </span>
-                            </p>
                             <p>
                                 <span className={`${styles.typeLine} ${styles.typeAccessing}`}>
                                     Accessing .....

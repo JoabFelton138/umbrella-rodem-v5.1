@@ -1,4 +1,6 @@
 .windowFrame {
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     border: 2px solid;
     border-width: 5px;
